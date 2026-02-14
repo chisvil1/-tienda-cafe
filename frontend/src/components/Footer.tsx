@@ -1,4 +1,3 @@
-import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import './Footer.css';

@@ -1,4 +1,3 @@
-import React from 'react';
 import '../components/Hero'; // Adjust path for components
 import '../components/AboutUs';
 import '../components/ProductList';

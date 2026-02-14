@@ -12,6 +12,8 @@ interface Product {
   category: string; // Add category to the interface
 }
 
+const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
 const ProductList: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
@@ -21,7 +23,7 @@ const ProductList: React.FC = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/products');
+        const response = await fetch(`${apiUrl}/api/products`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

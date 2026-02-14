@@ -1,0 +1,76 @@
+.product-card {
+  background-color: #382B29;
+  border: 1px solid #4a3a37;
+  color: #F5F5DC;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Ensure card uses flex layout */
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.product-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Make the link area grow */
+}
+
+.product-card-link:hover {
+  color: inherit;
+}
+
+.product-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #4a3a37;
+}
+
+.product-card .card-body {
+  flex-grow: 1;
+}
+
+.product-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.product-card .card-text {
+  font-size: 0.9rem;
+}
+
+.product-card .card-footer {
+  background-color: transparent;
+  border-top: 1px solid #4a3a37;
+  padding: 15px;
+}
+
+.product-card .card-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.btn-add-to-cart {
+  background-color: var(--brand-coffee);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #4a3423;
+  color: white;
+}

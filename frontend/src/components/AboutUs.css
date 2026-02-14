@@ -1,0 +1,19 @@
+.about-us-container {
+  padding: 40px 0;
+  color: #f5f5f5; /* Ensure text is visible on dark background */
+}
+
+.about-us-container .section-title {
+  color: #ffffff;
+}
+
+.about-us-container .lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.about-us-container p {
+  color: #bbbbbb;
+  line-height: 1.8;
+}

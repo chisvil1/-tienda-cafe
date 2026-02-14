@@ -1,0 +1,70 @@
+.footer-container {
+  background-color: #1c110f; /* Same dark brown as navbar */
+  color: #F5F5DC; /* Use new beige text color */
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.footer-col h4 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-col h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: var(--brand-accent); /* Use new accent color */
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col p {
+  color: #bbbbbb;
+}
+
+.footer-col .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+/* Style the Link component from react-router-dom */
+.footer-col .list-unstyled a {
+  color: #bbbbbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col .list-unstyled a:hover {
+  color: var(--brand-accent); /* Use new accent color */
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+  background-color: var(--brand-accent); /* Use new accent color */
+}
+
+.footer-bottom-text {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #bbbbbb;
+}

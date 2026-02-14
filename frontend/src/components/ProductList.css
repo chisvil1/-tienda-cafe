@@ -1,0 +1,17 @@
+.product-list-container {
+  padding: 40px 0;
+}
+
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.title-divider {
+  width: 100px;
+  height: 3px;
+  background-color: var(--brand-accent); /* Use new accent color */
+  margin: 0 auto 20px auto;
+}

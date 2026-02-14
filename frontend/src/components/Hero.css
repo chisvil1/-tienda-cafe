@@ -1,0 +1,100 @@
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffffff; } /* White cursor */
+}
+
+.hero-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.hero-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Adjusted radial gradient for diffusion in center and edges */
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.7) 70%, #2B1B17 100%);
+  z-index: 1;
+}
+
+.hero-title-container, .hero-button-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.hero-title-container {
+  margin-bottom: 100px;
+}
+
+.hero-button-container {
+  margin-bottom: 50px;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 auto;
+  overflow: hidden;
+  border-right: .15em solid #ffffff;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation:
+    typing 6s steps(30, end),
+    blink-caret 1s step-end infinite;
+  display: inline-block;
+}
+
+.hero-button {
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  opacity: 0;
+  animation: fadeIn 1s ease 6.2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-button:hover {
+  background-color: #4a3423;
+}

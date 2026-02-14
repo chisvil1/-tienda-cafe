@@ -1,0 +1,21 @@
+.filter-btn {
+  background-color: transparent;
+  border: 1px solid var(--brand-accent);
+  color: var(--brand-accent);
+  margin: 5px;
+  padding: 8px 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background-color: var(--brand-accent);
+  color: #1c110f; /* Dark brown for text on hover */
+}
+
+.filter-btn.active {
+  background-color: var(--brand-accent);
+  color: #1c110f;
+  box-shadow: 0 0 10px rgba(196, 164, 132, 0.5);
+}

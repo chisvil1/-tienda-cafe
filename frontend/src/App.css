@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+/* Remove the specific App-header styling as the navbar and hero will handle this */
+.App-header {
+ background-color: transparent;
+ padding: 20px 0;
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Berbeleta Soluble Liofilizado Regular",
+    "description": "Una forma consciente de disfrutar el café todos los días, sin sacrificar calidad por rapidez. Frasco de 110gr. Sutilmente aromático, natural y delicioso.",
+    "price": 10.50,
+    "imageUrl": "https://picsum.photos/seed/soluble-regular/400/300",
+    "category": "soluble"
+  },
+  {
+    "id": 2,
+    "name": "Berbeleta Soluble Liofilizado Sabor Vainilla",
+    "description": "Café soluble liofilizado con un toque dulce de vainilla. Frasco de 110gr. Una experiencia auténtica y placentera.",
+    "price": 11.00,
+    "imageUrl": "https://picsum.photos/seed/soluble-vainilla/400/300",
+    "category": "soluble"
+  },
+  {
+    "id": 3,
+    "name": "Berbeleta Soluble Liofilizado Sabor Coco",
+    "description": "Café soluble liofilizado con el exótico sabor del coco. Frasco de 110gr. Sorprende a tu paladar con esta opción diferente.",
+    "price": 11.00,
+    "imageUrl": "https://picsum.photos/seed/soluble-coco/400/300",
+    "category": "soluble"
+  },
+  {
+    "id": 4,
+    "name": "Berbeleta Soluble Liofilizado Sabor Canela-Avellana",
+    "description": "La combinación perfecta de canela y avellana en nuestro café soluble liofilizado. Frasco de 110gr. Cálido y reconfortante.",
+    "price": 11.00,
+    "imageUrl": "https://picsum.photos/seed/soluble-canela-avellana/400/300",
+    "category": "soluble"
+  },
+  {
+    "id": 5,
+    "name": "Berbeleta Grano Clásico",
+    "description": "Café tostado en grano de alta calidad, seleccionado para un aroma intenso y sabor equilibrado. Presentación de 350gr.",
+    "price": 15.75,
+    "imageUrl": "https://picsum.photos/seed/grano-clasico/400/300",
+    "category": "grano"
+  },
+  {
+    "id": 6,
+    "name": "Berbeleta Grano Clásico 850gr",
+    "description": "Café tostado en grano de alta calidad, seleccionado para un aroma intenso y sabor equilibrado. Presentación de 850gr.",
+    "price": 28.50,
+    "imageUrl": "https://picsum.photos/seed/grano-clasico-850/400/300",
+    "category": "grano"
+  },
+  {
+    "id": 7,
+    "name": "Berbeleta Molido Sabor Vainilla",
+    "description": "Café tostado y molido con suaves notas de vainilla. Presentación en 350gr. Aromas que transforman tu café.",
+    "price": 14.00,
+    "imageUrl": "https://picsum.photos/seed/molido-vainilla/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 8,
+    "name": "Berbeleta Molido Sabor Coco",
+    "description": "Café tostado y molido con el toque tropical del coco. Presentación en 350gr. Ideal para quienes buscan un café diferente.",
+    "price": 14.00,
+    "imageUrl": "https://picsum.photos/seed/molido-coco/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 9,
+    "name": "Berbeleta Molido Sabor Canela-Avellana",
+    "description": "La intensidad del café con la dulzura de canela y avellana. Presentación en 350gr. Listo para disfrutar.",
+    "price": 14.00,
+    "imageUrl": "https://picsum.photos/seed/molido-canela-avellana/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 10,
+    "name": "Berbeleta Origen Chiapas",
+    "description": "Café tostado y molido de Chiapas, con perfiles de sabor únicos que reflejan la esencia de su tierra. Presentación de 350gr.",
+    "price": 16.50,
+    "imageUrl": "https://picsum.photos/seed/origen-chiapas/400/300",
+    "category": "regiones"
+  },
+  {
+    "id": 11,
+    "name": "Berbeleta Origen Chiapas 850gr",
+    "description": "Café tostado y molido de Chiapas, con perfiles de sabor únicos que reflejan la esencia de su tierra. Presentación de 850gr.",
+    "price": 30.00,
+    "imageUrl": "https://picsum.photos/seed/origen-chiapas-850/400/300",
+    "category": "regiones"
+  },
+  {
+    "id": 12,
+    "name": "Berbeleta Origen Oaxaca",
+    "description": "Café tostado y molido de Oaxaca, granos con aromas definidos y sabores equilibrados. Presentación de 350gr.",
+    "price": 16.50,
+    "imageUrl": "https://picsum.photos/seed/origen-oaxaca/400/300",
+    "category": "regiones"
+  },
+  {
+    "id": 13,
+    "name": "Berbeleta Origen Oaxaca 850gr",
+    "description": "Café tostado y molido de Oaxaca, granos con aromas definidos y sabores equilibrados. Presentación de 850gr.",
+    "price": 30.00,
+    "imageUrl": "https://picsum.photos/seed/origen-oaxaca-850/400/300",
+    "category": "regiones"
+  },
+  {
+    "id": 14,
+    "name": "Berbeleta Origen Veracruz",
+    "description": "Café tostado y molido de Veracruz, un homenaje a la riqueza cafetalera de México. Presentación de 350gr.",
+    "price": 16.50,
+    "imageUrl": "https://picsum.photos/seed/origen-veracruz/400/300",
+    "category": "regiones"
+  },
+  {
+    "id": 15,
+    "name": "Berbeleta Origen Veracruz 850gr",
+    "description": "Café tostado y molido de Veracruz, un homenaje a la riqueza cafetalera de México. Presentación de 850gr.",
+    "price": 30.00,
+    "imageUrl": "https://picsum.photos/seed/origen-veracruz-850/400/300",
+    "category": "regiones"
+  },
+  {
+    "id": 16,
+    "name": "Berbeleta Molido Tueste Medio",
+    "description": "Café tostado y molido con tueste medio, resaltando aromas suaves y balanceados. Presentación en 350gr.",
+    "price": 13.50,
+    "imageUrl": "https://picsum.photos/seed/tueste-medio/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 17,
+    "name": "Berbeleta Molido Tueste Medio 850gr",
+    "description": "Café tostado y molido con tueste medio, resaltando aromas suaves y balanceados. Presentación en 850gr.",
+    "price": 26.00,
+    "imageUrl": "https://picsum.photos/seed/tueste-medio-850/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 18,
+    "name": "Berbeleta Molido Tueste Medio Oscuro",
+    "description": "Café tostado y molido con tueste medio oscuro, para un sabor más intenso y profundo. Presentación en 350gr.",
+    "price": 13.50,
+    "imageUrl": "https://picsum.photos/seed/tueste-medio-oscuro/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 19,
+    "name": "Berbeleta Molido Tueste Medio Oscuro 850gr",
+    "description": "Café tostado y molido con tueste medio oscuro, para un sabor más intenso y profundo. Presentación en 850gr.",
+    "price": 26.00,
+    "imageUrl": "https://picsum.photos/seed/tueste-medio-oscuro-850/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 20,
+    "name": "Berbeleta Molido Tueste Oscuro",
+    "description": "Café tostado y molido con tueste oscuro, para los amantes de los sabores intensos. Presentación en 350gr.",
+    "price": 13.50,
+    "imageUrl": "https://picsum.photos/seed/tueste-oscuro/400/300",
+    "category": "molido"
+  },
+  {
+    "id": 21,
+    "name": "Berbeleta Molido Tueste Oscuro 850gr",
+    "description": "Café tostado y molido con tueste oscuro, para los amantes de los sabores intensos. Presentación en 850gr.",
+    "price": 26.00,
+    "imageUrl": "https://picsum.photos/seed/tueste-oscuro-850/400/300",
+    "category": "molido"
+  }
+]

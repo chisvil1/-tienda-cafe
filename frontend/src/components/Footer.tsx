@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             <h4>SÍGUENOS</h4>
             <div className="social-links">
               <a href="https://www.facebook.com/profile.php?id=61587303024827" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-              <a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter /></a> {/* Twitter remains a placeholder */}
+
               <a href="https://www.instagram.com/cafeberbeleta" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             </div>
           </div>
